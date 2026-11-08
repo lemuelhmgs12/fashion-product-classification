@@ -22,3 +22,31 @@ desktop.ini
 # --- Jupyter Notebook ---
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
+
+
+# --- Data & models - too large for GitHub (see README for download instructions) ---
+data/raw/*
+data/processed/*
+models/*
+ 
+# keep the empty folders so the project structure shows on GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+ 
+# keep the record of which image went into which split (small, and useful)
+!data/processed/splits.csv
+ 
+# downloaded Kaggle zip (if not unzipped automatically)
+*.zip
+ 
+
+# --- keras-tuner search results (large, and re-created when the search is run) ---
+tuner_results/
+
+# --- Secrets ---
+.env
+.env.*
+access_token
+kaggle.json
+ 
