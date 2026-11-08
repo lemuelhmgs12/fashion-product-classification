@@ -8,3 +8,17 @@ wheels/
 
 # Virtual environments
 .venv
+
+# --- IDE / editor settings ---
+.vscode/
+.idea/
+
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
